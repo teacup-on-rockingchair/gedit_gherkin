@@ -1,0 +1,26 @@
+This is small description of the files I added in the repository
+
+The repository contains 4 files needed for your gEdit to hihglight Gherkin language, used by cucumber to describe features.
+
+The feature.xml and gherkin.lang are needed for you to install on any platform that you can use gedit. 
+
+I will describe here each of the files and the installation procedure I followed for my Ubuntu system.
+Guess it would be pretty much the same for any other Unix-based one, or even any system that u can run gEdit
+
+   	README  - this file
+ 	cukelang_generate_gherkin.rb 	Ruby script run on the shell generates as an output the gherkin.lang file
+ 	feature.xml 	             	XML that is used to describe the *.feature file in which the Gherkin language is used
+ 	gherkin.lang                    The specification of Gherkin based on what cucumber 0.8.5 output, in all languages it supports
+
+To make use of the syntax highlight of Gherkin you need to:
+ -  copy the feature.xml file to ~/.local/share/mime/packages or /usr/share/mime/packages
+ -  run 'sudo update-mime-database  ~/.local/share/mime' or 'sudo update-mime-database /usr/share/mime'
+ -  copy the gherkin.lang file to ~/.local/share/gtksourceview-2.0/language-specs/gherkin.lang or 
+    /usr/share/gtksourceview-2.0/language-specs/
+
+ To generate new lang file you need to have ruby and cucumber installed and run the script:
+
+'ruby  cukelang_generate_gherkin.rb > ~/.local/share/gtksourceview-2.0/language-specs/gherkin.lang'
+
+Note: I have tested only with Left-to-right Languages, since I do not know Arabic or Hebrew I will be no use testing it.
+     So anyone who has notes/comments/fixes on that can contribute
