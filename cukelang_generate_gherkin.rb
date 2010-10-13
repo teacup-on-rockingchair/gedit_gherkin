@@ -254,7 +254,7 @@ class GherkinBlockWords < GherkinWords
     
     def output_xml
         buildGherkinwordConcatenation
-        puts  '<define-regex id="'+@context_name+'-'+@lang+'" extended="true">^[\t\s]*('+@gherkinWordsString+'):</define-regex>'  
+        puts  '<define-regex id="'+@context_name+'-'+@lang+'">^[\t\s]*('+@gherkinWordsString+'):</define-regex>'  
 
 #"\n\t\<context id\=\"#{@context_name}-#{@lang}\" style-ref\=\"#{@styleref}\"\>\n\t\t\<match\>\^\[\\t\\s\]\*\
 #\(#{@gherkinWordsString})\:\<\/match\>\n\t\<\/context\>"
@@ -285,7 +285,7 @@ class GherkinNarrativeWords < GherkinWords
     
     def output_xml
         buildGherkinwordConcatenation
-        puts  '<define-regex id="'+@context_name+'-'+@lang+'" extended="true">^[\t\s]*('+@gherkinWordsString+'):</define-regex>'
+        puts  '<define-regex id="'+@context_name+'-'+@lang+'">^[\t\s]*('+@gherkinWordsString+'):</define-regex>'
 
  # "\n\t\<context id\=\"#{@context_name}-#{@lang}\" style-ref\=\"#{@styleref}\"\>\n\t\t\<match\>\^\[\\t\\s\]\*\
 #\(#{@gherkinWordsString})\:\<\/match\>\n\t\<\/context\>"

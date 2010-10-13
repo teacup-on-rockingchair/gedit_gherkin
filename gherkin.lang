@@ -98,276 +98,276 @@
       </include>
     </context>
 
-<define-regex id="start-of-scenario-ar" extended="true">^[\t\s]*(الخلفية|سيناريو|سيناريو مخطط|امثلة):</define-regex>
+<define-regex id="start-of-scenario-ar">^[\t\s]*(الخلفية|سيناريو|سيناريو مخطط|امثلة):</define-regex>
 
 	<context id="keywords-ar" style-ref="keyword">
 		<match>^[\t\s]*(بفرض |متى |عندما |اذاً |ثم |و |لكن )</match>
 	</context>
-<define-regex id="start-of-narrative-ar" extended="true">^[\t\s]*(خاصية):</define-regex>
-<define-regex id="start-of-scenario-bg" extended="true">^[\t\s]*(Предистория|Сценарий|Рамка на сценарий|Примери):</define-regex>
+<define-regex id="start-of-narrative-ar">^[\t\s]*(خاصية):</define-regex>
+<define-regex id="start-of-scenario-bg">^[\t\s]*(Предистория|Сценарий|Рамка на сценарий|Примери):</define-regex>
 
 	<context id="keywords-bg" style-ref="keyword">
 		<match>^[\t\s]*(Дадено |Когато |То |И |Но )</match>
 	</context>
-<define-regex id="start-of-narrative-bg" extended="true">^[\t\s]*(Функционалност):</define-regex>
-<define-regex id="start-of-scenario-ca" extended="true">^[\t\s]*(Rerefons|Antecedents|Escenari|Esquema de l'escenari|Exemples):</define-regex>
+<define-regex id="start-of-narrative-bg">^[\t\s]*(Функционалност):</define-regex>
+<define-regex id="start-of-scenario-ca">^[\t\s]*(Rerefons|Antecedents|Escenari|Esquema de l'escenari|Exemples):</define-regex>
 
 	<context id="keywords-ca" style-ref="keyword">
 		<match>^[\t\s]*(Donat |Donada |Atès |Atesa |Quan |Aleshores |Cal |I |Però )</match>
 	</context>
-<define-regex id="start-of-narrative-ca" extended="true">^[\t\s]*(Característica|Funcionalitat):</define-regex>
-<define-regex id="start-of-scenario-cs" extended="true">^[\t\s]*(Pozadí|Kontext|Scénář|Náčrt Scénáře|Osnova scénáře|Příklady):</define-regex>
+<define-regex id="start-of-narrative-ca">^[\t\s]*(Característica|Funcionalitat):</define-regex>
+<define-regex id="start-of-scenario-cs">^[\t\s]*(Pozadí|Kontext|Scénář|Náčrt Scénáře|Osnova scénáře|Příklady):</define-regex>
 
 	<context id="keywords-cs" style-ref="keyword">
 		<match>^[\t\s]*(Pokud |Když |Pak |A |Ataké |Ale )</match>
 	</context>
-<define-regex id="start-of-narrative-cs" extended="true">^[\t\s]*(Požadavek):</define-regex>
-<define-regex id="start-of-scenario-cy-GB" extended="true">^[\t\s]*(Cefndir|Scenario|Scenario Amlinellol|Enghreifftiau):</define-regex>
+<define-regex id="start-of-narrative-cs">^[\t\s]*(Požadavek):</define-regex>
+<define-regex id="start-of-scenario-cy-GB">^[\t\s]*(Cefndir|Scenario|Scenario Amlinellol|Enghreifftiau):</define-regex>
 
 	<context id="keywords-cy-GB" style-ref="keyword">
 		<match>^[\t\s]*(Anrhegediga |Pryd |Yna |A |Ond )</match>
 	</context>
-<define-regex id="start-of-narrative-cy-GB" extended="true">^[\t\s]*(Arwedd):</define-regex>
-<define-regex id="start-of-scenario-da" extended="true">^[\t\s]*(Baggrund|Scenarie|Abstrakt Scenario|Eksempler):</define-regex>
+<define-regex id="start-of-narrative-cy-GB">^[\t\s]*(Arwedd):</define-regex>
+<define-regex id="start-of-scenario-da">^[\t\s]*(Baggrund|Scenarie|Abstrakt Scenario|Eksempler):</define-regex>
 
 	<context id="keywords-da" style-ref="keyword">
 		<match>^[\t\s]*(Givet |Når |Så |Og |Men )</match>
 	</context>
-<define-regex id="start-of-narrative-da" extended="true">^[\t\s]*(Egenskab):</define-regex>
-<define-regex id="start-of-scenario-de" extended="true">^[\t\s]*(Grundlage|Szenario|Szenariogrundriss|Beispiele):</define-regex>
+<define-regex id="start-of-narrative-da">^[\t\s]*(Egenskab):</define-regex>
+<define-regex id="start-of-scenario-de">^[\t\s]*(Grundlage|Szenario|Szenariogrundriss|Beispiele):</define-regex>
 
 	<context id="keywords-de" style-ref="keyword">
 		<match>^[\t\s]*(Angenommen |Gegebensei |Wenn |Dann |Und |Aber )</match>
 	</context>
-<define-regex id="start-of-narrative-de" extended="true">^[\t\s]*(Funktionalität):</define-regex>
-<define-regex id="start-of-scenario-en" extended="true">^[\t\s]*(Background|Scenario|Scenario Outline|Examples|Scenarios):</define-regex>
+<define-regex id="start-of-narrative-de">^[\t\s]*(Funktionalität):</define-regex>
+<define-regex id="start-of-scenario-en">^[\t\s]*(Background|Scenario|Scenario Outline|Examples|Scenarios):</define-regex>
 
 	<context id="keywords-en" style-ref="keyword">
 		<match>^[\t\s]*(Given |When |Then |And |But )</match>
 	</context>
-<define-regex id="start-of-narrative-en" extended="true">^[\t\s]*(Feature):</define-regex>
-<define-regex id="start-of-scenario-en-Scouse" extended="true">^[\t\s]*(Dis is what went down|The thing of it is|Wharrimean is|Examples):</define-regex>
+<define-regex id="start-of-narrative-en">^[\t\s]*(Feature):</define-regex>
+<define-regex id="start-of-scenario-en-Scouse">^[\t\s]*(Dis is what went down|The thing of it is|Wharrimean is|Examples):</define-regex>
 
 	<context id="keywords-en-Scouse" style-ref="keyword">
 		<match>^[\t\s]*(Givun |Youseknowwhenyousegot |Wun |Youseknowlikewhen |Dun |Denyousegotta |An |Buh )</match>
 	</context>
-<define-regex id="start-of-narrative-en-Scouse" extended="true">^[\t\s]*(Feature):</define-regex>
-<define-regex id="start-of-scenario-en-au" extended="true">^[\t\s]*(Background|Mate|Blokes|Cobber):</define-regex>
+<define-regex id="start-of-narrative-en-Scouse">^[\t\s]*(Feature):</define-regex>
+<define-regex id="start-of-scenario-en-au">^[\t\s]*(Background|Mate|Blokes|Cobber):</define-regex>
 
 	<context id="keywords-en-au" style-ref="keyword">
 		<match>^[\t\s]*(Yaknowhow |When |Yagotta |N |Cept )</match>
 	</context>
-<define-regex id="start-of-narrative-en-au" extended="true">^[\t\s]*(Crikey):</define-regex>
-<define-regex id="start-of-scenario-en-lol" extended="true">^[\t\s]*(B4|MISHUN|MISHUN SRSLY|EXAMPLZ):</define-regex>
+<define-regex id="start-of-narrative-en-au">^[\t\s]*(Crikey):</define-regex>
+<define-regex id="start-of-scenario-en-lol">^[\t\s]*(B4|MISHUN|MISHUN SRSLY|EXAMPLZ):</define-regex>
 
 	<context id="keywords-en-lol" style-ref="keyword">
 		<match>^[\t\s]*(ICANHAZ |WEN |DEN |AN |BUT )</match>
 	</context>
-<define-regex id="start-of-narrative-en-lol" extended="true">^[\t\s]*(OH HAI):</define-regex>
-<define-regex id="start-of-scenario-en-pirate" extended="true">^[\t\s]*(Yo-ho-ho|Heave to|Shiver me timbers|Dead men tell no tales):</define-regex>
+<define-regex id="start-of-narrative-en-lol">^[\t\s]*(OH HAI):</define-regex>
+<define-regex id="start-of-scenario-en-pirate">^[\t\s]*(Yo-ho-ho|Heave to|Shiver me timbers|Dead men tell no tales):</define-regex>
 
 	<context id="keywords-en-pirate" style-ref="keyword">
 		<match>^[\t\s]*(Gangway |Blimey |Letgoandhaul |Aye |Avast )</match>
 	</context>
-<define-regex id="start-of-narrative-en-pirate" extended="true">^[\t\s]*(Ahoy matey!):</define-regex>
-<define-regex id="start-of-scenario-en-tx" extended="true">^[\t\s]*(Background|Scenario|All y'all|Examples):</define-regex>
+<define-regex id="start-of-narrative-en-pirate">^[\t\s]*(Ahoy matey!):</define-regex>
+<define-regex id="start-of-scenario-en-tx">^[\t\s]*(Background|Scenario|All y'all|Examples):</define-regex>
 
 	<context id="keywords-en-tx" style-ref="keyword">
 		<match>^[\t\s]*(Givenyall |Whenyall |Thenyall |Andyall |Butyall )</match>
 	</context>
-<define-regex id="start-of-narrative-en-tx" extended="true">^[\t\s]*(Feature):</define-regex>
-<define-regex id="start-of-scenario-eo" extended="true">^[\t\s]*(Fono|Scenaro|Konturo de la scenaro|Ekzemploj):</define-regex>
+<define-regex id="start-of-narrative-en-tx">^[\t\s]*(Feature):</define-regex>
+<define-regex id="start-of-scenario-eo">^[\t\s]*(Fono|Scenaro|Konturo de la scenaro|Ekzemploj):</define-regex>
 
 	<context id="keywords-eo" style-ref="keyword">
 		<match>^[\t\s]*(Donitaĵo |Se |Do |Kaj |Sed )</match>
 	</context>
-<define-regex id="start-of-narrative-eo" extended="true">^[\t\s]*(Trajto):</define-regex>
-<define-regex id="start-of-scenario-es" extended="true">^[\t\s]*(Antecedentes|Escenario|Esquema del escenario|Ejemplos):</define-regex>
+<define-regex id="start-of-narrative-eo">^[\t\s]*(Trajto):</define-regex>
+<define-regex id="start-of-scenario-es">^[\t\s]*(Antecedentes|Escenario|Esquema del escenario|Ejemplos):</define-regex>
 
 	<context id="keywords-es" style-ref="keyword">
 		<match>^[\t\s]*(Dado |Cuando |Entonces |Y |Pero )</match>
 	</context>
-<define-regex id="start-of-narrative-es" extended="true">^[\t\s]*(Característica):</define-regex>
-<define-regex id="start-of-scenario-et" extended="true">^[\t\s]*(Taust|Stsenaarium|Raamstsenaarium|Juhtumid):</define-regex>
+<define-regex id="start-of-narrative-es">^[\t\s]*(Característica):</define-regex>
+<define-regex id="start-of-scenario-et">^[\t\s]*(Taust|Stsenaarium|Raamstsenaarium|Juhtumid):</define-regex>
 
 	<context id="keywords-et" style-ref="keyword">
 		<match>^[\t\s]*(Eeldades |Kui |Siis |Ja |Kuid )</match>
 	</context>
-<define-regex id="start-of-narrative-et" extended="true">^[\t\s]*(Omadus):</define-regex>
-<define-regex id="start-of-scenario-fi" extended="true">^[\t\s]*(Tausta|Tapaus|Tapausaihio|Tapaukset):</define-regex>
+<define-regex id="start-of-narrative-et">^[\t\s]*(Omadus):</define-regex>
+<define-regex id="start-of-scenario-fi">^[\t\s]*(Tausta|Tapaus|Tapausaihio|Tapaukset):</define-regex>
 
 	<context id="keywords-fi" style-ref="keyword">
 		<match>^[\t\s]*(Oletetaan |Kun |Niin |Ja |Mutta )</match>
 	</context>
-<define-regex id="start-of-narrative-fi" extended="true">^[\t\s]*(Ominaisuus):</define-regex>
-<define-regex id="start-of-scenario-fr" extended="true">^[\t\s]*(Contexte|Scénario|Plan du scénario|Plan du Scénario|Exemples):</define-regex>
+<define-regex id="start-of-narrative-fi">^[\t\s]*(Ominaisuus):</define-regex>
+<define-regex id="start-of-scenario-fr">^[\t\s]*(Contexte|Scénario|Plan du scénario|Plan du Scénario|Exemples):</define-regex>
 
 	<context id="keywords-fr" style-ref="keyword">
 		<match>^[\t\s]*(Soit |Etantdonné |Quand |Lorsque |Lorsqu |Alors |Et |Mais )</match>
 	</context>
-<define-regex id="start-of-narrative-fr" extended="true">^[\t\s]*(Fonctionnalité):</define-regex>
-<define-regex id="start-of-scenario-he" extended="true">^[\t\s]*(רקע|תרחיש|תבנית תרחיש|דוגמאות):</define-regex>
+<define-regex id="start-of-narrative-fr">^[\t\s]*(Fonctionnalité):</define-regex>
+<define-regex id="start-of-scenario-he">^[\t\s]*(רקע|תרחיש|תבנית תרחיש|דוגמאות):</define-regex>
 
 	<context id="keywords-he" style-ref="keyword">
 		<match>^[\t\s]*(בהינתן |כאשר |אז |אזי |וגם |אבל )</match>
 	</context>
-<define-regex id="start-of-narrative-he" extended="true">^[\t\s]*(תכונה):</define-regex>
-<define-regex id="start-of-scenario-hr" extended="true">^[\t\s]*(Pozadina|Scenarij|Skica|Koncept|Primjeri|Scenariji):</define-regex>
+<define-regex id="start-of-narrative-he">^[\t\s]*(תכונה):</define-regex>
+<define-regex id="start-of-scenario-hr">^[\t\s]*(Pozadina|Scenarij|Skica|Koncept|Primjeri|Scenariji):</define-regex>
 
 	<context id="keywords-hr" style-ref="keyword">
 		<match>^[\t\s]*(Zadan |Zadani |Zadano |Kada |Kad |Onda |I |Ali )</match>
 	</context>
-<define-regex id="start-of-narrative-hr" extended="true">^[\t\s]*(Osobina|Mogućnost|Mogucnost):</define-regex>
-<define-regex id="start-of-scenario-hu" extended="true">^[\t\s]*(Háttér|Forgatókönyv|Forgatókönyv vázlat|Példák):</define-regex>
+<define-regex id="start-of-narrative-hr">^[\t\s]*(Osobina|Mogućnost|Mogucnost):</define-regex>
+<define-regex id="start-of-scenario-hu">^[\t\s]*(Háttér|Forgatókönyv|Forgatókönyv vázlat|Példák):</define-regex>
 
 	<context id="keywords-hu" style-ref="keyword">
 		<match>^[\t\s]*(Amennyiben |Adott |Majd |Ha |Amikor |Akkor |És |De )</match>
 	</context>
-<define-regex id="start-of-narrative-hu" extended="true">^[\t\s]*(Jellemző):</define-regex>
-<define-regex id="start-of-scenario-id" extended="true">^[\t\s]*(Dasar|Skenario|Skenario konsep|Contoh):</define-regex>
+<define-regex id="start-of-narrative-hu">^[\t\s]*(Jellemző):</define-regex>
+<define-regex id="start-of-scenario-id">^[\t\s]*(Dasar|Skenario|Skenario konsep|Contoh):</define-regex>
 
 	<context id="keywords-id" style-ref="keyword">
 		<match>^[\t\s]*(Dengan |Ketika |Maka |Dan |Tapi )</match>
 	</context>
-<define-regex id="start-of-narrative-id" extended="true">^[\t\s]*(Fitur):</define-regex>
-<define-regex id="start-of-scenario-it" extended="true">^[\t\s]*(Contesto|Scenario|Schema dello scenario|Esempi):</define-regex>
+<define-regex id="start-of-narrative-id">^[\t\s]*(Fitur):</define-regex>
+<define-regex id="start-of-scenario-it">^[\t\s]*(Contesto|Scenario|Schema dello scenario|Esempi):</define-regex>
 
 	<context id="keywords-it" style-ref="keyword">
 		<match>^[\t\s]*(Dato |Quando |Allora |E |Ma )</match>
 	</context>
-<define-regex id="start-of-narrative-it" extended="true">^[\t\s]*(Funzionalità):</define-regex>
-<define-regex id="start-of-scenario-ja" extended="true">^[\t\s]*(背景|シナリオ|シナリオアウトライン|シナリオテンプレート|テンプレ|シナリオテンプレ|例|サンプル):</define-regex>
+<define-regex id="start-of-narrative-it">^[\t\s]*(Funzionalità):</define-regex>
+<define-regex id="start-of-scenario-ja">^[\t\s]*(背景|シナリオ|シナリオアウトライン|シナリオテンプレート|テンプレ|シナリオテンプレ|例|サンプル):</define-regex>
 
 	<context id="keywords-ja" style-ref="keyword">
 		<match>^[\t\s]*(前提 |もし |ならば |かつ |しかし |但し |ただし )</match>
 	</context>
-<define-regex id="start-of-narrative-ja" extended="true">^[\t\s]*(フィーチャ|機能):</define-regex>
-<define-regex id="start-of-scenario-ko" extended="true">^[\t\s]*(배경|시나리오|시나리오 개요|예):</define-regex>
+<define-regex id="start-of-narrative-ja">^[\t\s]*(フィーチャ|機能):</define-regex>
+<define-regex id="start-of-scenario-ko">^[\t\s]*(배경|시나리오|시나리오 개요|예):</define-regex>
 
 	<context id="keywords-ko" style-ref="keyword">
 		<match>^[\t\s]*(조건 |먼저 |만일 |만약 |그러면 |그리고 |하지만 |단 )</match>
 	</context>
-<define-regex id="start-of-narrative-ko" extended="true">^[\t\s]*(기능):</define-regex>
-<define-regex id="start-of-scenario-lt" extended="true">^[\t\s]*(Kontekstas|Scenarijus|Scenarijaus šablonas|Pavyzdžiai|Scenarijai|Variantai):</define-regex>
+<define-regex id="start-of-narrative-ko">^[\t\s]*(기능):</define-regex>
+<define-regex id="start-of-scenario-lt">^[\t\s]*(Kontekstas|Scenarijus|Scenarijaus šablonas|Pavyzdžiai|Scenarijai|Variantai):</define-regex>
 
 	<context id="keywords-lt" style-ref="keyword">
 		<match>^[\t\s]*(Duota |Kai |Tada |Ir |Bet )</match>
 	</context>
-<define-regex id="start-of-narrative-lt" extended="true">^[\t\s]*(Savybė):</define-regex>
-<define-regex id="start-of-scenario-lu" extended="true">^[\t\s]*(Hannergrond|Szenario|Plang vum Szenario|Beispiller):</define-regex>
+<define-regex id="start-of-narrative-lt">^[\t\s]*(Savybė):</define-regex>
+<define-regex id="start-of-scenario-lu">^[\t\s]*(Hannergrond|Szenario|Plang vum Szenario|Beispiller):</define-regex>
 
 	<context id="keywords-lu" style-ref="keyword">
 		<match>^[\t\s]*(ugeholl |wann |dann |an |a |awer |mä )</match>
 	</context>
-<define-regex id="start-of-narrative-lu" extended="true">^[\t\s]*(Funktionalitéit):</define-regex>
-<define-regex id="start-of-scenario-lv" extended="true">^[\t\s]*(Konteksts|Situācija|Scenārijs|Scenārijs pēc parauga|Piemēri|Paraugs):</define-regex>
+<define-regex id="start-of-narrative-lu">^[\t\s]*(Funktionalitéit):</define-regex>
+<define-regex id="start-of-scenario-lv">^[\t\s]*(Konteksts|Situācija|Scenārijs|Scenārijs pēc parauga|Piemēri|Paraugs):</define-regex>
 
 	<context id="keywords-lv" style-ref="keyword">
 		<match>^[\t\s]*(Kad |Ja |Tad |Un |Bet )</match>
 	</context>
-<define-regex id="start-of-narrative-lv" extended="true">^[\t\s]*(Funkcionalitāte|Fīča):</define-regex>
-<define-regex id="start-of-scenario-nl" extended="true">^[\t\s]*(Achtergrond|Scenario|Abstract Scenario|Voorbeelden):</define-regex>
+<define-regex id="start-of-narrative-lv">^[\t\s]*(Funkcionalitāte|Fīča):</define-regex>
+<define-regex id="start-of-scenario-nl">^[\t\s]*(Achtergrond|Scenario|Abstract Scenario|Voorbeelden):</define-regex>
 
 	<context id="keywords-nl" style-ref="keyword">
 		<match>^[\t\s]*(Gegeven |Stel |Als |Dan |En |Maar )</match>
 	</context>
-<define-regex id="start-of-narrative-nl" extended="true">^[\t\s]*(Functionaliteit):</define-regex>
-<define-regex id="start-of-scenario-no" extended="true">^[\t\s]*(Bakgrunn|Scenario|Abstrakt Scenario|Eksempler):</define-regex>
+<define-regex id="start-of-narrative-nl">^[\t\s]*(Functionaliteit):</define-regex>
+<define-regex id="start-of-scenario-no">^[\t\s]*(Bakgrunn|Scenario|Abstrakt Scenario|Eksempler):</define-regex>
 
 	<context id="keywords-no" style-ref="keyword">
 		<match>^[\t\s]*(Gitt |Når |Så |Og |Men )</match>
 	</context>
-<define-regex id="start-of-narrative-no" extended="true">^[\t\s]*(Egenskap):</define-regex>
-<define-regex id="start-of-scenario-pl" extended="true">^[\t\s]*(Założenia|Scenariusz|Szablon scenariusza|Przykłady):</define-regex>
+<define-regex id="start-of-narrative-no">^[\t\s]*(Egenskap):</define-regex>
+<define-regex id="start-of-scenario-pl">^[\t\s]*(Założenia|Scenariusz|Szablon scenariusza|Przykłady):</define-regex>
 
 	<context id="keywords-pl" style-ref="keyword">
 		<match>^[\t\s]*(Zakładając |Jeżeli |Wtedy |Oraz |Ale )</match>
 	</context>
-<define-regex id="start-of-narrative-pl" extended="true">^[\t\s]*(Właściwość):</define-regex>
-<define-regex id="start-of-scenario-pt" extended="true">^[\t\s]*(Contexto|Cenário|Cenario|Esquema do Cenário|Esquema do Cenario|Exemplos):</define-regex>
+<define-regex id="start-of-narrative-pl">^[\t\s]*(Właściwość):</define-regex>
+<define-regex id="start-of-scenario-pt">^[\t\s]*(Contexto|Cenário|Cenario|Esquema do Cenário|Esquema do Cenario|Exemplos):</define-regex>
 
 	<context id="keywords-pt" style-ref="keyword">
 		<match>^[\t\s]*(Dado |Quando |Então |Entao |E |Mas )</match>
 	</context>
-<define-regex id="start-of-narrative-pt" extended="true">^[\t\s]*(Funcionalidade):</define-regex>
-<define-regex id="start-of-scenario-ro" extended="true">^[\t\s]*(Conditii|Scenariu|Scenariul de sablon|Exemplele):</define-regex>
+<define-regex id="start-of-narrative-pt">^[\t\s]*(Funcionalidade):</define-regex>
+<define-regex id="start-of-scenario-ro">^[\t\s]*(Conditii|Scenariu|Scenariul de sablon|Exemplele):</define-regex>
 
 	<context id="keywords-ro" style-ref="keyword">
 		<match>^[\t\s]*(Daca |Cand |Atunci |Si |Dar )</match>
 	</context>
-<define-regex id="start-of-narrative-ro" extended="true">^[\t\s]*(Functionalitate):</define-regex>
-<define-regex id="start-of-scenario-ro-RO" extended="true">^[\t\s]*(Condiţii|Scenariu|Scenariul de şablon|Exemplele):</define-regex>
+<define-regex id="start-of-narrative-ro">^[\t\s]*(Functionalitate):</define-regex>
+<define-regex id="start-of-scenario-ro-RO">^[\t\s]*(Condiţii|Scenariu|Scenariul de şablon|Exemplele):</define-regex>
 
 	<context id="keywords-ro-RO" style-ref="keyword">
 		<match>^[\t\s]*(Dacă |Când |Atunci |Și |Dar )</match>
 	</context>
-<define-regex id="start-of-narrative-ro-RO" extended="true">^[\t\s]*(Funcționalitate):</define-regex>
-<define-regex id="start-of-scenario-ru" extended="true">^[\t\s]*(Предыстория|Сценарий|Структура сценария|Значения):</define-regex>
+<define-regex id="start-of-narrative-ro-RO">^[\t\s]*(Funcționalitate):</define-regex>
+<define-regex id="start-of-scenario-ru">^[\t\s]*(Предыстория|Сценарий|Структура сценария|Значения):</define-regex>
 
 	<context id="keywords-ru" style-ref="keyword">
 		<match>^[\t\s]*(Допустим |Дано |Пусть |Если |Когда |То |Тогда |И |Ктомуже |Но |А )</match>
 	</context>
-<define-regex id="start-of-narrative-ru" extended="true">^[\t\s]*(Функционал|Фича):</define-regex>
-<define-regex id="start-of-scenario-sk" extended="true">^[\t\s]*(Pozadie|Scenár|Náčrt Scenáru|Príklady):</define-regex>
+<define-regex id="start-of-narrative-ru">^[\t\s]*(Функционал|Фича):</define-regex>
+<define-regex id="start-of-scenario-sk">^[\t\s]*(Pozadie|Scenár|Náčrt Scenáru|Príklady):</define-regex>
 
 	<context id="keywords-sk" style-ref="keyword">
 		<match>^[\t\s]*(Pokiaľ |Keď |Tak |A |Ale )</match>
 	</context>
-<define-regex id="start-of-narrative-sk" extended="true">^[\t\s]*(Požiadavka):</define-regex>
-<define-regex id="start-of-scenario-sr-Cyrl" extended="true">^[\t\s]*(Контекст|Основа|Позадина|Сценарио|Пример|Структура сценарија|Скица|Концепт|Примери|Сценарији):</define-regex>
+<define-regex id="start-of-narrative-sk">^[\t\s]*(Požiadavka):</define-regex>
+<define-regex id="start-of-scenario-sr-Cyrl">^[\t\s]*(Контекст|Основа|Позадина|Сценарио|Пример|Структура сценарија|Скица|Концепт|Примери|Сценарији):</define-regex>
 
 	<context id="keywords-sr-Cyrl" style-ref="keyword">
 		<match>^[\t\s]*(Задато |Задате |Задати |Када |Кад |Онда |И |Али )</match>
 	</context>
-<define-regex id="start-of-narrative-sr-Cyrl" extended="true">^[\t\s]*(Функционалност|Могућност|Особина):</define-regex>
-<define-regex id="start-of-scenario-sr-Latn" extended="true">^[\t\s]*(Kontekst|Osnova|Pozadina|Scenario|Primer|Struktura scenarija|Skica|Koncept|Primeri|Scenariji):</define-regex>
+<define-regex id="start-of-narrative-sr-Cyrl">^[\t\s]*(Функционалност|Могућност|Особина):</define-regex>
+<define-regex id="start-of-scenario-sr-Latn">^[\t\s]*(Kontekst|Osnova|Pozadina|Scenario|Primer|Struktura scenarija|Skica|Koncept|Primeri|Scenariji):</define-regex>
 
 	<context id="keywords-sr-Latn" style-ref="keyword">
 		<match>^[\t\s]*(Zadato |Zadate |Zatati |Kada |Kad |Onda |I |Ali )</match>
 	</context>
-<define-regex id="start-of-narrative-sr-Latn" extended="true">^[\t\s]*(Funkcionalnost|Mogućnost|Mogucnost|Osobina):</define-regex>
-<define-regex id="start-of-scenario-sv" extended="true">^[\t\s]*(Bakgrund|Scenario|Abstrakt Scenario|Exempel):</define-regex>
+<define-regex id="start-of-narrative-sr-Latn">^[\t\s]*(Funkcionalnost|Mogućnost|Mogucnost|Osobina):</define-regex>
+<define-regex id="start-of-scenario-sv">^[\t\s]*(Bakgrund|Scenario|Abstrakt Scenario|Exempel):</define-regex>
 
 	<context id="keywords-sv" style-ref="keyword">
 		<match>^[\t\s]*(Givet |När |Så |Och |Men )</match>
 	</context>
-<define-regex id="start-of-narrative-sv" extended="true">^[\t\s]*(Egenskap):</define-regex>
-<define-regex id="start-of-scenario-tr" extended="true">^[\t\s]*(Geçmiş|Senaryo|Senaryo taslağı|Örnekler):</define-regex>
+<define-regex id="start-of-narrative-sv">^[\t\s]*(Egenskap):</define-regex>
+<define-regex id="start-of-scenario-tr">^[\t\s]*(Geçmiş|Senaryo|Senaryo taslağı|Örnekler):</define-regex>
 
 	<context id="keywords-tr" style-ref="keyword">
 		<match>^[\t\s]*(Diyelimki |Eğerki |Ozaman |Ve |Fakat |Ama )</match>
 	</context>
-<define-regex id="start-of-narrative-tr" extended="true">^[\t\s]*(Özellik):</define-regex>
-<define-regex id="start-of-scenario-uk" extended="true">^[\t\s]*(Передумова|Сценарій|Структура сценарію|Приклади):</define-regex>
+<define-regex id="start-of-narrative-tr">^[\t\s]*(Özellik):</define-regex>
+<define-regex id="start-of-scenario-uk">^[\t\s]*(Передумова|Сценарій|Структура сценарію|Приклади):</define-regex>
 
 	<context id="keywords-uk" style-ref="keyword">
 		<match>^[\t\s]*(Припустимо |Припустимощо |Нехай |Дано |Якщо |Коли |То |Тоді |І |Атакож |Та |Але )</match>
 	</context>
-<define-regex id="start-of-narrative-uk" extended="true">^[\t\s]*(Функціонал):</define-regex>
-<define-regex id="start-of-scenario-uz" extended="true">^[\t\s]*(Тарих|Сценарий|Сценарий структураси|Мисоллар):</define-regex>
+<define-regex id="start-of-narrative-uk">^[\t\s]*(Функціонал):</define-regex>
+<define-regex id="start-of-scenario-uz">^[\t\s]*(Тарих|Сценарий|Сценарий структураси|Мисоллар):</define-regex>
 
 	<context id="keywords-uz" style-ref="keyword">
 		<match>^[\t\s]*(Агар |Агар |Унда |Ва |Лекин |Бирок |Аммо )</match>
 	</context>
-<define-regex id="start-of-narrative-uz" extended="true">^[\t\s]*(Функционал):</define-regex>
-<define-regex id="start-of-scenario-vi" extended="true">^[\t\s]*(Bối cảnh|Tình huống|Kịch bản|Khung tình huống|Khung kịch bản|Dữ liệu):</define-regex>
+<define-regex id="start-of-narrative-uz">^[\t\s]*(Функционал):</define-regex>
+<define-regex id="start-of-scenario-vi">^[\t\s]*(Bối cảnh|Tình huống|Kịch bản|Khung tình huống|Khung kịch bản|Dữ liệu):</define-regex>
 
 	<context id="keywords-vi" style-ref="keyword">
 		<match>^[\t\s]*(Biết |Cho |Khi |Thì |Và |Nhưng )</match>
 	</context>
-<define-regex id="start-of-narrative-vi" extended="true">^[\t\s]*(Tính năng):</define-regex>
-<define-regex id="start-of-scenario-zh-CN" extended="true">^[\t\s]*(背景|场景|场景大纲|例子):</define-regex>
+<define-regex id="start-of-narrative-vi">^[\t\s]*(Tính năng):</define-regex>
+<define-regex id="start-of-scenario-zh-CN">^[\t\s]*(背景|场景|场景大纲|例子):</define-regex>
 
 	<context id="keywords-zh-CN" style-ref="keyword">
 		<match>^[\t\s]*(假如 |当 |那么 |而且 |但是 )</match>
 	</context>
-<define-regex id="start-of-narrative-zh-CN" extended="true">^[\t\s]*(功能):</define-regex>
-<define-regex id="start-of-scenario-zh-TW" extended="true">^[\t\s]*(背景|場景|劇本|場景大綱|劇本大綱|例子):</define-regex>
+<define-regex id="start-of-narrative-zh-CN">^[\t\s]*(功能):</define-regex>
+<define-regex id="start-of-scenario-zh-TW">^[\t\s]*(背景|場景|劇本|場景大綱|劇本大綱|例子):</define-regex>
 
 	<context id="keywords-zh-TW" style-ref="keyword">
 		<match>^[\t\s]*(假設 |當 |那麼 |而且 |並且 |但是 )</match>
 	</context>
-<define-regex id="start-of-narrative-zh-TW" extended="true">^[\t\s]*(功能):</define-regex>
+<define-regex id="start-of-narrative-zh-TW">^[\t\s]*(功能):</define-regex>
 <context id="keywords">
 		<include>
 			<context ref="keywords-ar"/>
